@@ -57,6 +57,19 @@ console.log("Welcome to My Portfolio!");
   $(".circleBorder").on("click",function(){
     var id=$(this).attr("id");
     switch(id){
+       
+      case "lagana":
+        $("#myModal50").modal("show");
+        break;
+      case "laganamob":
+        $("#myModal51").modal("show");
+        break;
+      case "school":
+        $("#myModal52").modal("show");
+        break;
+      case "makers":
+        $("#myModal53").modal("show");
+        break;
 
       case "dashboard":
         $("#myModal20").modal("show");
